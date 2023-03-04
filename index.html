@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>QuickTick</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<header>
+		<h1>QuickTick</h1>
+	</header>
+
+	<main>
+		<section>
+			<h2>Add New Task</h2>
+			<form id="add-task-form">
+				<label for="task-input">Task:</label>
+				<input type="text" id="task-input" name="task-input" required>
+				<button type="submit">Add</button>
+			</form>
+		</section>
+		<section>
+			<h2>Tasks</h2>
+			<ul id="task-list"></ul>
+			<div>
+				<button id="reset-button">Reset</button>
+			</div>
+			<div class="progress-bar">
+                <div class="progress-bar-progress" style="width: 0%;"></div>
+                <div class="progress-bar-labels">
+                  <span id="completed-count">0</span> / <span id="total-count">0</span>
+                </div>
+              </div>              
+		</section>
+	<footer>
+		<div id="reward">
+            <div id="reward-message">DONE!!!!</div>
+          </div>  
+	</footer>        
+        <div id="quote-container">
+            <blockquote id="quote"></blockquote>
+            <button id="new-quote-button">Recharge Movtivation now!!!</button>
+          </div>
+        </div>
+    </main>
+	<script src="app.js"></script>
+</body>
+</html>
