@@ -54,7 +54,7 @@ form input[type="text"] {
 }
 
 form button[type="submit"] {
-  background-color: #333;
+  background-color: #837e7e;
   color: #fff;
   border: none;
   border-radius: 5px;
@@ -80,7 +80,7 @@ li input[type="checkbox"] {
 }
 
 #reset-button {
-  background-color: #333;
+  background-color: #837e7e;
   color: #fff;
   border: none;
   border-radius: 5px;
@@ -166,7 +166,7 @@ blockquote {
   }
   
   #new-quote-button:hover {
-  background-color: #666;
+  background-color: #837e7e;
   }
   
   /* Responsive */
